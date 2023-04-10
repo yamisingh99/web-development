@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline prop</title>
+    <style>
+        .box1{
+            width: 400px;
+            height:1000px;
+            background-color: blue;
+            display:inline-flex;
+            margin: 34px;
+        }
+        .box2{
+            width: 400px;
+            height: 1000px;
+            background-color: red;
+            /* display: inline; */
+            /* display: inline; takes only the space required by the element/text moreover no heght/width setting is allowed to set */
+            /* display: block; takes full space of width and leaves newline after element */
+            /* display: inline-block; same as inline but setting margin & width is allowed */
+            /* display: hidden; //the element is hidden but its space is reserved */
+            /* display: none; //the element is removed from the document flow without reserving space  */
+            text-align: justify;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="box1">Lorem ipsum dolor sit amet consectetur hic ab ratione magnam?</div>
+    <div class="box2">Lorem ipsum dolor sit amet os in necessidicta aliquam dolorem.</div>
+</body>
+
+</html>

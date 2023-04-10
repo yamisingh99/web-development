@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>font units</title>
+    <style>
+        .container{
+            font-size: 32px;
+
+        }
+        .box{
+            /* font-size: 23px;   //this can be done with following ways--  */
+            /* font-size: 3em;       // which denotes 3*container size em means my parent font size */
+            font-size: 3rem ;     /* rem means size relative to html tag/ parent font size*/
+            background-color: blue;
+        }
+        .box2{
+            background-color: brown;
+            color: aliceblue;
+            /* font-size: 50vh; //relative to percentage size of viewport height */
+            /* font-size: 50vw;  //relative to percentage size of viewports's width */
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, architecto?</p></div>
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officia consectetur expedita facere excepturi accusantium doloremque dolores. Saepe, architecto distinctio!</div>
+    <div class="box2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nulla mollitia repudiandae animi dolor vero ab dolore commodi similique officia?</div>
+</body>
+</html>
